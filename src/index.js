@@ -1,1 +1,2 @@
-alert('Hello');
+import pageLoad from "./home";
+pageLoad();

@@ -1,1 +1,1 @@
-alert("Hello");
+(()=>{"use strict";!function(){let e=document.querySelector("#content"),t=document.createElement("h1");t.textContent="Rock Munchers Cafe";let n=document.createElement("p");n.textContent="Rock Munchers is my restaurant of choice. They always have the finest selections of Earths most exquisite bits. My family has been going here every morning for generations and will be for many more!";let o=document.createElement("img");o.src="/images/rockpile.jpg",o.height="500",o.width="500",e.append(t,n,o)}()})();
