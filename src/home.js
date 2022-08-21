@@ -1,5 +1,8 @@
-export default function pageLoad() {
+export default function homePage() {
     let content = document.querySelector('#content');
+    
+    let container = document.createElement('div');
+    container.className = 'homepage';
 
     let header = document.createElement('h1');
     header.textContent = 'Rock Munchers Cafe';
@@ -12,5 +15,6 @@ export default function pageLoad() {
     image.height = '500';
     image.width = '500';
 
-    content.append(header, testimonial, image);
+    container.append(header, testimonial, image);
+    content.append(container);
 }
